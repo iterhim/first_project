@@ -23,7 +23,7 @@ a.text:active, a.text:hover, a {
 }
 .header-list{
     width: 120px;
-    height: 50px;
+    /*height: 50px;*/
     padding: 20px;
     text-align: center;
     font-size: 24px;
@@ -121,7 +121,7 @@ a.text:active, a.text:hover, a {
 /*залишаю як є*/
 .header-footer{
     height: 66px;
-    padding:  10px;
+    padding:  30px;
     width: 100%;
     background-color: #38BEB5;
     display: flex;
@@ -166,8 +166,8 @@ a.text:active, a.text:hover, a {
 }
 .main-article{
     /*margin:0 auto 33px ;*/
-    padding: 10px;
-    width: 98.5%;
+    /*padding: 10px;*/
+    width: 100%;
     /*height: 55px;*/
     background-color: #C6EAFF;
     text-align: center;
@@ -189,18 +189,18 @@ a.text:active, a.text:hover, a {
 }
 .main-article-3-1{
     /*padding: 0;*/
-    height: 338px;
-    width: 3%;
+    height: 330px;
+    width: 1.5%;
     background-color: #9DDADE;
 }
 .main-article-3-2{
-    width: 95%;
+    width: 97%;
     height: 312px;
 }
 .main-article-3-2-1{
-    height: 71px;
+    height: 73px;
     width: 100%;
-    /*margin: auto;*/
+
     background-color: white;
     white-space: nowrap; /* Запрещаем перенос строк */
     overflow: hidden; /* Обрезаем все, что не помещается в область */
@@ -211,11 +211,11 @@ a.text:active, a.text:hover, a {
     line-height: 31px;
     display: flex;
     align-items: center;
-
     color: #000000;
 }
-.h2{
-    border: 2px solid #56BEB2;
+.hr2{
+    border: 1px solid #56BEB2;
+    /*height: 0.5px;*/
 }
 .main-article-3-2-2{
     height: 90px;
@@ -256,7 +256,7 @@ a.text:active, a.text:hover, a {
 .main-nav{
     /*height: 20px;*/
     /*text-align: center;*/
-    padding: 10px;
+    padding: 20px;
     /*width: 10%;*/
     /*background-color: white;*/
     display: flex;
@@ -282,7 +282,7 @@ a.text:active, a.text:hover, a {
 
 }
 .main-footer{
-    height: 137px;
+    /*height: 137px;*/
     text-align: center;
     padding: 100px;
     rotate: 180deg;
@@ -319,6 +319,13 @@ a.text:active, a.text:hover, a {
 .footer-list li{
     cursor: pointer;
 }
+.footer-list li:hover{
+    transition-duration: 500ms;
+    color: #008cff;
+    /*border-radius: 100px;*/
+    /*box-shadow: 0 0 5px #52cc0b, 0 0 25px #cc0b36, 0 0 50px #0bcccc, 0 0 200px #52cc0b;*/
+
+}
 .f-col3{
     margin-left: 50%;
 }
@@ -327,14 +334,15 @@ a.text:active, a.text:hover, a {
     /*height: 929px;*/
 }
 .foot-list{
+    /*padding: 10px;*/
     padding-bottom: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 .footer-img{
     height: 47px;
-    width: 70%;
+    /*width: 70%;*/
     margin-right: 57px;
     margin-bottom: 18px;
 }
