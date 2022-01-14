@@ -6,11 +6,14 @@
     font-style: normal;
     font-weight: normal;
     cursor: default;
+}
+html {
+    scroll-behavior: smooth;
 
 }
 a.text:active, a.text:hover, a {
     text-decoration: none;
-    color: #ffffff;
+    color: black;
 }
 .container-header{
     margin: auto;
@@ -94,6 +97,7 @@ a.text:active, a.text:hover, a {
 .main-header-list{
     display: flow-root;
     /*padding: 5px;*/
+    background-color: #ffffff;
 }
 
 .main-header-nav li:hover{
@@ -114,6 +118,7 @@ a.text:active, a.text:hover, a {
     padding: 20px;
     text-align: center;
     text-decoration: none;
+    color: black;
 }
 .main-list1{
     float: right;
@@ -127,23 +132,24 @@ a.text:active, a.text:hover, a {
 }
 /*залишаю як є*/
 .header-footer{
-    height: 66px;
+    /*height: 66px;*/
     padding:  30px;
-    width: 100%;
-    background-color: #38BEB5;
-    display: flex;
+    /*width: 100%;*/
+    background-color: #ffffff;
+    display: flow-root;
     flex-direction: row;
     align-items: center;
 }
 #form1{
     height: 29px;
     width: 173px;
+    margin: 10px;
 }
 #form1:focus{
     box-shadow: 0 0 20px #192223;
 }
 .button-header{
-    margin-left: 70%;
+    /*margin: 10px;*/
     height: 37px;
     width: 156px;
     background-color: #5CCEC7;
@@ -152,6 +158,7 @@ a.text:active, a.text:hover, a {
     color: white;
     border-radius: 9px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    float: right;
 }
 .button-header a{
     cursor: pointer;
@@ -207,7 +214,6 @@ a.text:active, a.text:hover, a {
 .main-article-3-2-1{
     height: 73px;
     width: 100%;
-
     background-color: white;
     white-space: nowrap; /* Запрещаем перенос строк */
     overflow: hidden; /* Обрезаем все, что не помещается в область */
@@ -216,10 +222,14 @@ a.text:active, a.text:hover, a {
     font-weight: bold;
     font-size: 24px;
     line-height: 31px;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
+    /*justify-content: center;*/
+    text-align: center;
     color: #000000;
+
 }
+
 .hr2{
     border: 1px solid #56BEB2;
     /*height: 0.5px;*/
@@ -261,11 +271,7 @@ a.text:active, a.text:hover, a {
 
 
 .main-nav{
-    /*height: 20px;*/
-    /*text-align: center;*/
     padding: 20px;
-    /*width: 10%;*/
-    /*background-color: white;*/
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -273,15 +279,16 @@ a.text:active, a.text:hover, a {
 }
 .main-nav li a{
     text-align: center;
-    background-color: #38BEB5;
-    width: 33%;
-    padding: 10px;
+    /*background-color: #38BEB5;*/
+    color: black;
+    width: 10px;
+    padding: 3px;
 }
 .main-nav li a:hover{
     transition-duration: 500ms;
-    background-color: #59efbb;
-    border-radius: 100px;
-    box-shadow: 0 0 5px #52cc0b, 0 0 25px #cc0b36, 0 0 50px #0bcccc, 0 0 200px #52cc0b;
+    color: #59efbb;
+    /*border-radius: 100px;*/
+    text-shadow:  0 0 25px #cc0b36, 0 0 50px #0bcccc, 0 0 200px #52cc0b;
 }
 .main-empty{
     /*height: 135px;*/
@@ -361,7 +368,7 @@ a.text:active, a.text:hover, a {
     margin-bottom: 18px;
 }
 #foot-text{
-    margin-right: 85%;
+    margin-right: 70%;
     margin-bottom: 25px;
     color: rgba(0, 0, 0, 0.21);
     font-style: normal;
