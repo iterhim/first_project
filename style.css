@@ -14,6 +14,7 @@ html {
 a.text:active, a.text:hover, a {
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 .container-header{
     margin: auto;
@@ -87,6 +88,7 @@ a.text:active, a.text:hover, a {
 
 /*main-header styles*/
 .main{
+
 }
 .main-header-nav{
     margin: auto;
@@ -99,12 +101,20 @@ a.text:active, a.text:hover, a {
     /*padding: 5px;*/
     background-color: #ffffff;
 }
-
-.main-header-nav li:hover{
+.main-header-list li{
+    margin: 1%;
+}
+.main-header-list li:hover{
     transition-duration: 500ms;
-    background-color: #59efbb;
-    border-radius: 100px;
-    box-shadow: 0 0 5px #52cc0b, 0 0 25px #cc0b36, 0 0 50px #0bcccc, 0 0 200px #52cc0b;
+    color: #59efbb;
+    /*border-radius: 100px;*/
+    /*box-shadow: 0 0 50px #52cc0b, 0 0 25px #cc0b36, 0 0 50px #0bcccc, 0 0 200px #52cc0b;*/
+}
+.main-header-list li a:hover{
+    transition-duration: 500ms;
+    color: #59efbb;
+    /*border-radius: 100px;*/
+    /*box-shadow: 0 0 50px #52cc0b, 0 0 25px #cc0b36, 0 0 50px #0bcccc, 0 0 200px #52cc0b;*/
 }
 #gen_2{
     color: #38BEB5;
@@ -112,8 +122,8 @@ a.text:active, a.text:hover, a {
     display: block;
 }
 .main-list{
-    cursor: pointer;
-    width: 10%;
+    /*cursor: pointer;*/
+    /*width: 20%;*/
     /*height: 55px;*/
     padding: 20px;
     text-align: center;
@@ -160,7 +170,7 @@ a.text:active, a.text:hover, a {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     float: right;
 }
-.button-header a{
+a{
     cursor: pointer;
 }
 #hr1{
@@ -227,7 +237,10 @@ a.text:active, a.text:hover, a {
     /*justify-content: center;*/
     text-align: center;
     color: #000000;
-
+}
+.main-article-3-2-1:hover{
+    background-color: rgba(248, 247, 250, 0.16);
+    transition-duration: 500ms;
 }
 
 .hr2{

@@ -1,0 +1,127 @@
+.main-art{
+    text-align: center;
+    /*width: 100%;*/
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: large;
+}
+.main-first{
+    /*display: flow-root;*/
+    padding: 40px;
+    /*width: 250px;*/
+
+}
+.main-first-img{
+    /*width: 250px;*/
+    padding: 10px;
+    /*float: left;*/
+    /*text-align: left;*/
+}
+.first_photo{
+    background-image: url("img/7.png");
+    background-repeat: no-repeat;
+    /*height: 240px;*/
+    /*width: 237px;*/
+    height: 100%;
+    width: 100%;
+}
+.box_w_photo a{
+    display: block;
+    float: left;
+    height: 240px;
+    width: 237px;
+    /*height:00px;*/
+    /*width: 30%;*/
+    margin: 0 15px 15px 0;
+    cursor: pointer;
+}
+
+.underground_text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-text{
+    float: right;
+}
+.underground_text span{
+    color: rgba(87, 198, 69, 1);
+    font-weight: bold;
+}
+.underground_text span:first-child{
+    color: rgba(164, 125, 228, 1);
+    font-weight: bold;
+}
+.line1{
+    height: 5px;
+    background-color: #CECECE;
+    border: none;
+    margin: 10px;
+}
+
+.main-topics{
+    display: block;
+    margin-bottom: 10px;
+}
+.topic1:hover{
+    box-shadow: none;
+    transition: 2s;
+}
+.topic1{
+    margin: auto;
+    width: 95%;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px #9bccc3;
+    background-color: #d2eee9;
+    text-align: center;
+}.topic1-1:hover{
+     box-shadow: none;
+     transition: 2s;
+ }
+.topic1-1{
+    margin: auto;
+    width: 95%;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px #9bccc3;
+    background-color: #e5fcc0;
+    text-align: center;
+}
+.second_photo{
+    background-image: url("img/7.png");
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 90%;
+    border-radius: 99999px;
+    text-align: center;
+    background-position: center;
+}
+.main-first-img p{
+    /*overflow: hidden;*/
+    /*height: 340px;*/
+}
+.underground_text_2{
+    justify-content: center;
+    padding: 10px;
+    width: 90%;
+
+}
+.underground_text_3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.underground_text_3 span{
+    color: #624545;
+    font-weight: bold;
+}
+.underground_text_3 span:first-child{
+    color: #416002;
+}
+#underground_span1{
+    color: #8a1010;
+}
+.main-empty{
+    margin-top: 100px;
+}
